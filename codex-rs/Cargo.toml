@@ -38,7 +38,7 @@ members = [
     "utils/pty",
     "utils/readiness",
     "utils/string",
-    "utils/tokenizer",
+    "utils/tokenizer", "code-review",
 ]
 resolver = "2"
 
@@ -61,6 +61,7 @@ codex-arg0 = { path = "arg0" }
 codex-async-utils = { path = "async-utils" }
 codex-backend-client = { path = "backend-client" }
 codex-chatgpt = { path = "chatgpt" }
+codex-code-review = { path = "code-review" }
 codex-common = { path = "common" }
 codex-core = { path = "core" }
 codex-exec = { path = "exec" }
@@ -178,6 +179,7 @@ starlark = "0.13.0"
 strum = "0.27.2"
 strum_macros = "0.27.2"
 supports-color = "3.0.2"
+syn = "2"
 sys-locale = "0.3.2"
 tempfile = "3.23.0"
 test-log = "0.2.18"
